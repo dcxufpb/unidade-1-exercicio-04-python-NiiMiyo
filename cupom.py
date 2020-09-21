@@ -17,7 +17,6 @@ def dados_loja():
 
     # Implemente aqui
     if nome_loja == "":
-        print("esta caralha passou aqui")
         raise Exception("O campo nome da loja é obrigatório")
 
     if logradouro == "":
